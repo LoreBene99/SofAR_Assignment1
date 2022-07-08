@@ -122,7 +122,7 @@ Localization mode consists of 3 things:
 * Maintains a rolling buffer of recent scans in the pose-graph.
 * After expiring from the buffer scans are removed and the underlying map is not affected. 
 
-When the map has been serialized, you will have to add its path to the *localization_parameters.yaml* file, subsequently you have to run :
+When the map has been serialized, you will have to add its FULL path to the *localization_parameters.yaml* file, subsequently you have to run :
 ```
 ros2 launch tiago_assignment assignment_launch.py localization:=true rviz:=true
 ```
@@ -147,6 +147,7 @@ If you want to run the project, you have to insert this command :
 ros2 launch tiago_assignment assignment_launch.py lifelong:=true rviz:=true
 ```
 You can also desiarialize the pose graph and continue mapping the world (through **rviz**).
+Remember : In the Deserialize **box**, in rviz, you have to put the full path of the map you want to deserialize; in this case, the map you want to continue mapping will be loaded (ex : */home/lorenzo/sofar_ws/src/SofAR_Assignment1/tiago_assignment/maps/half_map*), ready to be mapped (again)!
 
 **EXAMPLE VIDEO**
 ## Conclusion 
