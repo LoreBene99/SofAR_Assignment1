@@ -1,0 +1,59 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.1333498669640634 0.23178687609389498 -0.9635832382577542 1.1477928696817155
+  position -0.6180770946281612 1.1964377717818577 0.7652427724115963
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+}
+CardboardBox {
+  translation 1.21847 0.00917563 0.3
+  rotation 0.7040631892342535 -0.09269012491274485 -0.7040621892339847 -2.9567353071795863
+}
+Pioneer3at {
+  controller "<extern>"
+  supervisor TRUE
+  extensionSlot [
+    RobotisLds01 {
+      translation 0.18 0 0.3
+    }
+    LightSensor {
+      translation 0 0 0.29
+    }
+    Kinect {
+      translation 0.109998 0 0.47
+    }
+    Gyro {
+    }
+    InertialUnit {
+    }
+    Accelerometer {
+    }
+    GPS {
+    }
+    LED {
+    }
+    Solid {
+      translation 0.11 0 0.37
+      children [
+        DEF ROD_SHAPE Shape {
+          appearance Plaster {
+            colorOverride 0.180392 0.203922 0.211765
+          }
+          geometry Cylinder {
+            height 0.2
+            radius 0.012
+          }
+        }
+      ]
+      boundingObject USE ROD_SHAPE
+      physics Physics {
+      }
+    }
+  ]
+}
