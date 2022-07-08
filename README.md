@@ -6,7 +6,7 @@ Assignment given by the professors Simone Macciò and Fulvio Mastrogiovanni for 
 
 ## Delivery of the project 
 <p align="center">
-<img src="https://github.com/LoreBene99/sofar_1/blob/main/images/Immagine%20(3).png" width="550" height="400">
+<img src="https://github.com/LoreBene99/SofAR_Assignment1/blob/main/images/Immagine%20(3).png" width="550" height="400">
 </p>
 
 ## Preface
@@ -31,7 +31,7 @@ Whereas **Nav2** project is the spiritual successor of the ROS Navigation Stack.
 Nav2 uses behavior trees to call modular servers to complete an action. An action can be to compute a path, control effort, recovery, or any other navigation related action. These are each separate nodes that communicate with the behavior tree (BT) over a ROS action server. The diagram below will give you a good first-look at the structure of Nav2. 
 
 <p align="center">
-<img src="https://github.com/LoreBene99/sofar_1/blob/main/images/nav2_architecture.png" width="550" height="400">
+<img src="https://github.com/LoreBene99/SofAR_Assignment1/blob/main/images/nav2_architecture.png" width="550" height="400">
 </p>
 
 ## Installation 
