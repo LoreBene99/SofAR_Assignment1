@@ -84,7 +84,7 @@ In order to have "a better view" of the project, we decided to write all the lau
 * **slam_params** : to choose the parameters for slam mapping (online_async_parameters.yaml as default)
 * **rviz** : in order to use rviz.
 
-### Nav 2 
+### Nav 2 mode
 As we said before, the Nav2 project is the spiritual successor of the ROS Navigation Stack. This project seeks to find a safe way to have a mobile robot move from point A to point B. It can also be applied in other applications that involve robot navigation, like following dynamic points. This will complete dynamic path planning, compute velocities for motors, avoid obstacles, and structure recovery behaviors. 
 
 In order to launch the simulation using the navigation stack, you have to run this command :
@@ -96,7 +96,7 @@ After that, to start correctly the simulation, you must place the robot through 
 
 **EXAMPLE VIDEO**
 
-### Slam (Simultaneous Localization and Mapping)
+### Slam (Simultaneous Localization and Mapping) mode
 The Slam Toolbox package incorporates information from **laser scanners** in the form of a **LaserScan message** and TF transforms from odom->base link, and **creates a 2D map of a space**.
 This package will allow you to **fully serialize the data and pose-graph of the SLAM map** to be reloaded to continue mapping, localize, merge, or otherwise manipulate. We allow for SLAM Toolbox to be run in synchronous (process all valid sensor measurements, regardless of lag) and asynchronous (process valid sensors measurements on an as-possible basis) modes.
 
@@ -131,7 +131,7 @@ This will allow you to use the slam_toolbox package as localization only using y
 
 **EXAMPLE VIDEO**
 
-### LifeLong mapping 
+### LifeLong mapping mode
 LifeLong mapping is the concept of being able to map a space, completely or partially, and over time, refine and update that map as you continue to interact with the space. While Slam Toolbox can also just be used for a point-and-shoot mapping of a space and saving that map as a .pgm file as maps are traditionally stored in, it also allows you to save the pose-graph and metadata losslessly to reload later with the same or different robot and continue to map the space.
 
 Our lifelong mapping consists of a few key steps :
