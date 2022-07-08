@@ -66,7 +66,7 @@ to build the package.
 #### NB : we decided to not remove the subfolder in webots_ros_2 called *webots_ros2_core* even if this package has been deprecated and will be removed with the release of Webots R2023a. In fact, users of webots_ros2_core should migrate to *webots_ros2_driver*.
 
 ## Run the project
-To run the project you will need your own workspace, in which you have to download/clone this repository in the *src* folder.
+To run the project you will need your own workspace, in which you have to clone this repository in the *src* folder.
 
 Then run on the terminal *colcon build* in order to set up the package. 
 
