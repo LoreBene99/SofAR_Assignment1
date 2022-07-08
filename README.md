@@ -74,9 +74,10 @@ Then run on the terminal *colcon build* in order to set up the package.
 In order to have "a better view" of the project, we decided to write all the launch file arguments, to not have a confusionary "vision" of the whole project.
 * **nav** : to run the simulation using the navigation stack.
 * **slam**: to use slam.
+* **lifelong**: to use the lifelong modality of the slam_toolbox.
+* **localization** : to use the slam toolbox ony in localization mode.
 * **use_sim_time** : to use the simulation time (default : True)
 * **world** : to choose the environment for the simulation (default : *break_room_1.wbt* file in the **environments** folder; if you'd like to change the 3D environments, you have to put, in the row launch code on the terminal, *break_room_2.wbt* / *warehouse.wbt* / *house.wbt*.  
-* **localization_only** : to use the slam toolbox ony in localization mode.
 * **map** : to choose the map for the navigation (map.yaml file as default)
 * **mode** : choose the simulator mode (*realtime* as deafault) 
 * **nav_params** : to choose the parameters for navigation (nav2_parameters.yaml as default)
@@ -123,7 +124,7 @@ Localization mode consists of 3 things:
 
 When the map has been serialized, you will have to add its path to the *localization_parameters.yaml* file, subsequently you have to run :
 ```
-ros2 launch tiago_assignment assignment_launch.py localization_only:=true rviz:=true
+ros2 launch tiago_assignment assignment_launch.py localization:=true rviz:=true
 ```
 In this case you will use the **slam_toolbox** package only as localization, of course using the map file.
 This will allow you to use the slam_toolbox package as localization only using your map file.
@@ -143,7 +144,7 @@ You should save the map and its relative posegraph when the session ends. The ma
 
 If you want to run the project, you have to insert this command : 
 ```
-ros2 launch tiago_assignment assignment_launch.py continue:=true rviz:=true
+ros2 launch tiago_assignment assignment_launch.py lifelong:=true rviz:=true
 ```
 You can also desiarialize the pose graph and continue mapping the world (through **rviz**).
 
