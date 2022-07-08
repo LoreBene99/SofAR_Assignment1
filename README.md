@@ -4,7 +4,7 @@ Assignment given by the professors Simone Macciò and Fulvio Mastrogiovanni for 
 
 ## Delivery of the project 
 <p align="center">
-<img src="https://github.com/LoreBene99/SofAR_Assignment1/blob/main/images/Immagine%20(3).png" width="550" height="400">
+<img src="https://github.com/LoreBene99/SofAR_Assignment1/blob/main/images/Immagine.png" width="550" height="400">
 </p>
 
 ## Preface
