@@ -7,8 +7,8 @@ WorldInfo {
 }
 Viewpoint {
   fieldOfView 0.5
-  orientation 0.4081372458533834 0.38426580054871384 -0.8281085575429533 1.8227363237813314
-  position 4.914457849999455 19.383628499839357 28.126187667357776
+  orientation 0.42278106261288534 0.4204497182921036 -0.8027940006527269 1.799500352073647
+  position 1.5356338746744345 21.09219616640952 30.48804153809433
   near 1
   follow "TIAGo Iron"
   followType "None"
@@ -22,7 +22,6 @@ TexturedBackground {
 TexturedBackgroundLight {
   texture "entrance_hall"
 }
-
 Floor {
   translation 0.243 0.93 0
   rotation 0 0 1 1.5708
@@ -312,78 +311,15 @@ Wall {
   size 0.06 5.7 2.5
 }
 Sofa {
-  translation 1.22999 -2 0
+  translation 0.85999 -2 0
   rotation 0 0 -1 -1.5707953071795862
-}
-PottedTree {
-  translation 2.38 -2.15 0
-}
-PottedTree {
-  translation 6.23 1.42 0
-  name "potted tree(1)"
 }
 PottedTree {
   translation -5.78 -2.17 0
   name "potted tree(2)"
 }
 Cabinet {
-  translation -0.01 -2.49 0
-  rotation 0 0 1 1.57079
-  outerThickness 0.02
-  rowsHeights [
-    0.3, 0.4, 0.3, 0.3
-  ]
-  columnsWidths [
-    0.6
-  ]
-  layout [
-    "Drawer (1, 1, 1, 1, 3.5)"
-    "Shelf (1, 4, 1, 0)"
-    "Shelf (1, 3, 1, 0)"
-    "Shelf (1, 2, 1, 0)"
-    "Shelf (1, 1, 1, 1)"
-  ]
-  handle CabinetHandle {
-    handleColor 0.533333 0.541176 0.521569
-  }
-  primaryAppearance MattePaint {
-    baseColor 0.729412 0.741176 0.713725
-  }
-  secondaryAppearance GlossyPaint {
-    baseColor 0.643137 0 0
-  }
-}
-Cabinet {
-  translation 2.62 0.22 0
-  rotation 0 0 1 3.14159
-  name "cabinet(1)"
-  outerThickness 0.02
-  rowsHeights [
-    0.1, 0.25
-  ]
-  columnsWidths [
-    0.5, 0.5
-  ]
-  layout [
-    "Drawer (2, 2, 1, 1, 1.5)"
-    "Drawer (1, 2, 1, 1, 1.5)"
-    "Shelf (1, 1, 0, 2)"
-    "Shelf (2, 2, 1, 0)"
-    "Shelf (1, 2, 1, 0)"
-    "Shelf (1, 1, 0, 1)"
-  ]
-  handle CabinetHandle {
-    handleColor 0.533333 0.541176 0.521569
-  }
-  primaryAppearance MattePaint {
-    baseColor 0.729412 0.741176 0.713725
-  }
-  secondaryAppearance GlossyPaint {
-    baseColor 0.643137 0 0
-  }
-}
-Cabinet {
-  translation 6.65 -0.7 1.6
+  translation 6.65 -0.91 1.6
   rotation 0 0 1 3.14159
   name "cabinet(2)"
   outerThickness 0.02
@@ -471,7 +407,7 @@ Cabinet {
   }
 }
 Cabinet {
-  translation -0.66 -2.49 0
+  translation -1.17 -2.49 0
   rotation 0 0 1 1.57079
   name "cabinet(5)"
   outerThickness 0.02
@@ -495,79 +431,6 @@ Cabinet {
   }
   secondaryAppearance GlossyPaint {
     baseColor 0.643137 0 0
-  }
-}
-Cabinet {
-  translation -1.52 -2.5 0.1
-  rotation 0 0 -1 -1.5707853071795865
-  name "cabinet(6)"
-  outerThickness 0.02
-  rowsHeights [
-    0.22, 0.22, 0.22
-  ]
-  columnsWidths [
-    0.5, 0.5
-  ]
-  layout [
-    "LeftSidedDoor (2, 1, 1, 3, 1.5)"
-    "LeftSidedDoor (1, 1, 1, 3, 1.5)"
-    "Shelf (1, 1, 0, 3)"
-    "Shelf (2, 1, 0, 3)"
-  ]
-  handle CabinetHandle {
-    translation 0 0.26 -0.02
-    handleLength 0.1
-    handleRadius 0.008
-    handleColor 0.427451 0.513725 0.533333
-  }
-  primaryAppearance MattePaint {
-    baseColor 0.94667 0.925551 0.852003
-  }
-  secondaryAppearance MattePaint {
-    baseColor 0.94667 0.925551 0.852003
-  }
-}
-Cabinet {
-  translation -2.31 -2.5 0.1
-  rotation 0 0 1 1.57079
-  name "cabinet(7)"
-  outerThickness 0.02
-  rowsHeights [
-    0.22, 0.22, 0.22
-  ]
-  columnsWidths [
-    0.5
-  ]
-  layout [
-    "Drawer (1, 3, 1, 1, 1)"
-    "Drawer (1, 2, 1, 1, 1)"
-    "Drawer (1, 1, 1, 1, 1)"
-    "Shelf (1, 1, 0, 3)"
-  ]
-  handle CabinetHandle {
-    translation -0.01 0 0.02
-    handleLength 0.1
-    handleRadius 0.008
-    handleColor 0.427451 0.513725 0.533333
-  }
-  primaryAppearance MattePaint {
-    baseColor 0.94667 0.925551 0.852003
-  }
-  secondaryAppearance MattePaint {
-    baseColor 0.94667 0.925551 0.852003
-  }
-}
-SolidBox {
-  translation -1.79 -2.25 0.05
-  rotation 0 0 1 1.5708
-  size 0.5 1.58 0.1
-  appearance PBRAppearance {
-    baseColor 0.8 0.8 0.8
-    roughness 0.5
-    metalness 0
-    textureTransform TextureTransform {
-      scale 4 4
-    }
   }
 }
 Solid {
@@ -605,23 +468,6 @@ Solid {
     size 0.36 0.06 0.17
   }
 }
-Sink {
-  translation -2.27 -2.32 0.835
-  rotation 0 0 -1 -1.5708
-}
-Table {
-  translation 3.18 -1.66 0
-  size 1 1.6 0.74
-  feetSize 0.05 0.05
-  trayAppearance DEF TABLE_WOOD VarnishedPine {
-    textureTransform TextureTransform {
-      scale 10 10
-    }
-  }
-  legAppearance MattePaint {
-    baseColor 0.2 0.2 0.2
-  }
-}
 Table {
   translation 6.14 -1.66 0
   name "table(1)"
@@ -641,51 +487,8 @@ Table {
   }
 }
 Table {
-  translation 3.18 0.05 0
-  name "table(3)"
-  feetSize 0.05 0.05
-  legAppearance MattePaint {
-    baseColor 0.2 0.2 0.2
-  }
-}
-Table {
-  translation 6.14 0.05 0
-  name "table(4)"
-  feetSize 0.05 0.05
-  legAppearance MattePaint {
-    baseColor 0.2 0.2 0.2
-  }
-}
-Table {
   translation -3.18 0.05 0
   name "table(5)"
-  feetSize 0.05 0.05
-  legAppearance MattePaint {
-    baseColor 0.2 0.2 0.2
-  }
-}
-Table {
-  translation -3.18 1.86 0
-  name "table(6)"
-  feetSize 0.05 0.05
-  legAppearance MattePaint {
-    baseColor 0.2 0.2 0.2
-  }
-}
-Table {
-  translation -1.77 3.27 0
-  rotation 0 0 1 1.5707996938995747
-  name "table(7)"
-  feetSize 0.05 0.05
-  legAppearance MattePaint {
-    baseColor 0.2 0.2 0.2
-  }
-}
-Table {
-  translation -3.18 3.27 0
-  rotation 0 0 1 1.5707996938995747
-  name "table(8)"
-  size 1 1 0.74
   feetSize 0.05 0.05
   legAppearance MattePaint {
     baseColor 0.2 0.2 0.2
@@ -720,36 +523,6 @@ Monitor {
   rotation 0 0 1 -3.0106903061004253
   name "monitor(5)"
 }
-Monitor {
-  translation -2.84277 1.65969 0.76
-  rotation 0 0 1 3.0106996938995745
-  name "monitor(6)"
-}
-Monitor {
-  translation -2.84277 2.14969 0.76
-  rotation 0 0 1 -3.0106903061004253
-  name "monitor(7)"
-}
-Monitor {
-  translation 2.87928 -1.79048 0.76
-  rotation 0 0 1 0.1308996938995747
-  name "monitor(8)"
-}
-Monitor {
-  translation 2.87723 -1.29031 0.76
-  rotation 0 0 1 -0.1308996938995747
-  name "monitor(9)"
-}
-Monitor {
-  translation 2.87723 -0.18031 0.76
-  rotation 0 0 1 0.1308996938995747
-  name "monitor(10)"
-}
-Monitor {
-  translation 2.87723 0.35969 0.76
-  rotation 0 0 1 -0.1308996938995747
-  name "monitor(11)"
-}
 Keyboard {
   translation -3.22303 -1.73097 0.74
   rotation 0 0 1 3.0106996938995745
@@ -762,29 +535,6 @@ Keyboard {
   translation -2.99655 -0.0404275 0.74
   rotation 0 0 1 -3.0106993877991495
   name "keyboard(2)"
-}
-Keyboard {
-  translation -3.26 1.91 0.74
-  rotation 0 0 1 -3.141592653589793
-  name "keyboard(3)"
-}
-Keyboard {
-  translation 2.98306 -1.5267 0.74
-  rotation 0 0 1 -0.2617916122008506
-  name "keyboard(4)"
-}
-Keyboard {
-  translation 3.07 0.1 0.74
-  name "keyboard(5)"
-}
-OfficeChair {
-  translation 4.01794 -0.0449998 0
-  rotation 0 0 1 2.618
-}
-OfficeChair {
-  translation 3.94 -1.53 0
-  rotation 0 0 1 3.14159
-  name "office chair(1)"
 }
 OfficeChair {
   translation 5.36388 -1.48338 0
@@ -799,11 +549,6 @@ OfficeChair {
 OfficeChair {
   translation -4 0.0700003 0
   name "office chair(4)"
-}
-OfficeChair {
-  translation -4.07 1.85 0
-  rotation 0 0 1 0.785397
-  name "office chair(5)"
 }
 TiagoIron {
   translation 5.50811 3.49032 0.19172
