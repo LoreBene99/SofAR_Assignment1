@@ -91,6 +91,7 @@ In order to launch the simulation using the navigation stack, you have to run th
 ros2 launch tiago_assignment assignment_launch.py nav:=true rviz:=true
 ```
 After that, to start correctly the simulation, you must place the robot through the utilization of **2D Pose Estimate**; to let the robot reach the goal, use **2D Nav Goal** (always in  *rviz*) and select wherever you want the robot to go.
+#### NB : In this modality, the pre-loaded map is a map from the folder "resource" (comes from the "tiago" subfolder in the webots_ros2 package). Of course we have to precisize that the 2D map has to MATCH with the 3D environment, if not there will be some mismatches!
 
 **EXAMPLE VIDEO**
 
