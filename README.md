@@ -128,7 +128,7 @@ ros2 launch tiago_assignment assignment_launch.py localization:=true rviz:=true
 ```
 In this case you will use the **slam_toolbox** package only as localization, of course using the map file.
 This will allow you to use the slam_toolbox package as localization only using your map file.
-#### NB : For this modality there is an example map (not a completed one) in the *maps* folder, called "trial" (trial.data/trial.posegraph). You can start the Localization mode using that map, putting the FULL path to that map in the localization_parameters.yaml. The 3D environments is the break_room_1. 
+#### NB : For this modality there is an example map (not a completed one) in the *maps* folder, called "house" (house.data/house.posegraph). You can start the Localization mode using that map, putting the FULL path to that map in the localization_parameters.yaml. The 3D environments is the house. 
 
 **EXAMPLE VIDEO**
 
