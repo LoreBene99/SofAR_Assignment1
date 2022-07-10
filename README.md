@@ -151,7 +151,8 @@ You can also desiarialize the pose graph and continue mapping the world (through
 Remember : In the Deserialize **box**, in rviz, you have to put the full path of the map you want to deserialize; in this case, the map you want to continue mapping will be loaded (ex : */home/lorenzo/sofar_ws/src/SofAR_Assignment1/tiago_assignment/maps/half_map*), ready to be mapped (again)! Of course we have tested the LifeLong mode and we have generated the related after_lifelong files in the *maps* folder regarding the continue mapping on this map. 
 
 **EXAMPLE VIDEO**
-## Flowcharts
+
+## Nodes Interaction
 ### SLAM mode without the keyboard
 
 <p align="center">
