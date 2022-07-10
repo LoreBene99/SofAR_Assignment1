@@ -1,7 +1,7 @@
 image: half_map.pgm
 mode: trinary
 resolution: 0.02
-origin: [-8.17, -5.33, 0]
+origin: [-5.34, -6.3, 0]
 negate: 0
 occupied_thresh: 0.65
 free_thresh: 0.25

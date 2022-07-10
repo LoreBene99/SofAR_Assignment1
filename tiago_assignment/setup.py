@@ -10,8 +10,8 @@ data_files.append(
 data_files.append(('share/' + package_name + '/launch', ['launch/assignment_launch.py']))
 
 data_files.append(('share/' + package_name + '/maps', [
-    'maps/trial.posegraph',
-    'maps/trial.data'
+    'maps/house.posegraph',
+    'maps/house.data'
 ]))
 
 data_files.append(('share/' + package_name + '/environments', [
