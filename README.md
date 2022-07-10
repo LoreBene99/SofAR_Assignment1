@@ -151,6 +151,37 @@ You can also desiarialize the pose graph and continue mapping the world (through
 Remember : In the Deserialize **box**, in rviz, you have to put the full path of the map you want to deserialize; in this case, the map you want to continue mapping will be loaded (ex : */home/lorenzo/sofar_ws/src/SofAR_Assignment1/tiago_assignment/maps/half_map*), ready to be mapped (again)! Of course we have tested the LifeLong mode and we have generated the related after_lifelong files in the *maps* folder regarding the continue mapping on this map. 
 
 **EXAMPLE VIDEO**
+## Flowcharts
+### SLAM mode without the keyboard
+
+<p align="center">
+<img src="https://github.com/LoreBene99/SofAR_Assignment1/blob/main/images/slamnokey.png" width="550" height="400">
+</p>
+
+### SLAM mode with the keyboard
+
+<p align="center">
+<img src="https://github.com/LoreBene99/SofAR_Assignment1/blob/main/images/slamkey.png" width="550" height="400">
+</p>
+
+### Nav2 mode 
+
+<p align="center">
+<img src="https://github.com/LoreBene99/SofAR_Assignment1/blob/main/images/nav.png" width="550" height="400">
+</p>
+
+### Localization mode
+
+<p align="center">
+<img src="https://github.com/LoreBene99/SofAR_Assignment1/blob/main/images/localization.png" width="550" height="400">
+</p>
+
+### LifeLong mode
+
+<p align="center">
+<img src="https://github.com/LoreBene99/SofAR_Assignment1/blob/main/images/lifelong.png" width="550" height="400">
+</p>
+
 ## Conclusion 
 The assignement was very interesting and exciting to develop.
 We managed to deal with the **slam_toolbox** and **Nav2** thanks to all the documentation provided on Github and Internet.
