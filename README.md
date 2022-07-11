@@ -92,7 +92,7 @@ In order to launch the simulation using the navigation stack, you have to run th
 ros2 launch tiago_assignment assignment_launch.py nav:=true rviz:=true
 ```
 After that, to start correctly the simulation, you must place the robot through the utilization of **2D Pose Estimate**; to let the robot reach the goal, use **2D Nav Goal** (always in  *rviz*) and select wherever you want the robot to go.
-#### NB : In this modality, the pre-loaded map is a map from the folder "resource" (comes from the "tiago" subfolder in the webots_ros2 package). Of course we have to precisize that the 2D map has to MATCH with the 3D environment, if not there will be some mismatches! This map is matching with the break_room_1.
+#### NB : In this modality, the pre-loaded map is a map from the folder "resource" (comes from the "tiago" subfolder in the webots_ros2 package). Of course we have to precisize that the 2D map has to MATCH with the 3D environment, if not there will be some mismatches! This map is matching with the break_room_1 (default).
 
 https://user-images.githubusercontent.com/91314586/178226028-71e5dacc-6215-40c4-8630-9c1344591cb3.mp4
 
@@ -128,7 +128,7 @@ ros2 launch tiago_assignment assignment_launch.py localization:=true rviz:=true
 ```
 In this case you will use the **slam_toolbox** package only as localization, of course using the map file.
 This will allow you to use the slam_toolbox package as localization only using your map file.
-#### NB : For this modality there is an example map (not a completed one) in the *maps* folder, called "house" (house.data/house.posegraph). You can start the Localization mode using that map, putting the FULL path to that map in the localization_parameters.yaml. The 3D environments is the house. 
+#### NB : For this modality there is an example map (not a completed one) in the *maps* folder, called "house" (house.data/house.posegraph). You can start the Localization mode using that map, putting the FULL path to that map in the localization_parameters.yaml. The 3D environments is the house, so put on the terminal *world:=house.wbt*.
 
 https://user-images.githubusercontent.com/91314586/178226291-67ccb770-a856-4d26-947b-f334f6941e5f.mp4
 
@@ -148,7 +148,7 @@ If you want to run the project, you have to insert this command :
 ros2 launch tiago_assignment assignment_launch.py lifelong:=true rviz:=true
 ```
 You can also desiarialize the pose graph and continue mapping the world (through **rviz**).
-Remember : In the Deserialize **box**, in rviz, you have to put the full path of the map you want to deserialize; in this case, the map you want to continue mapping will be loaded (ex : */home/lorenzo/sofar_ws/src/SofAR_Assignment1/tiago_assignment/maps/half_map*), ready to be mapped (again)! Of course we have tested the LifeLong mode and we have generated the related after_lifelong files in the *maps* folder regarding the continue mapping on this map. 
+Remember : In the Deserialize **box**, in rviz, you have to put the full path of the map you want to deserialize; in this case, the map you want to continue mapping will be loaded (ex : */home/lorenzo/sofar_ws/src/SofAR_Assignment1/tiago_assignment/maps/half_map*), ready to be mapped (again)! Of course we have tested the LifeLong mode and we have generated the related after_lifelong files in the *maps* folder regarding the continue mapping on this map. The half_map was built in the **warehouse** environment, so put world:=warehouse.wbt when starting this modality. 
 
 https://user-images.githubusercontent.com/91314586/178226412-da18dd95-88f2-4326-9d70-afd58a756b2b.mp4
 
