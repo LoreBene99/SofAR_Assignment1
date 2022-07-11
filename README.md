@@ -150,7 +150,7 @@ ros2 launch tiago_assignment assignment_launch.py lifelong:=true rviz:=true
 You can also desiarialize the pose graph and continue mapping the world (through **rviz**).
 Remember : In the Deserialize **box**, in rviz, you have to put the full path of the map you want to deserialize; in this case, the map you want to continue mapping will be loaded (ex : */home/lorenzo/sofar_ws/src/SofAR_Assignment1/tiago_assignment/maps/half_map*), ready to be mapped (again)! Of course we have tested the LifeLong mode and we have generated the related after_lifelong files in the *maps* folder regarding the continue mapping on this map. The half_map was built in the **warehouse** environment, so put world:=warehouse.wbt when starting this modality. 
 
-https://user-images.githubusercontent.com/91314586/178226412-da18dd95-88f2-4326-9d70-afd58a756b2b.mp4
+https://user-images.githubusercontent.com/91314586/178328555-c6d99885-bf57-4c0b-8e43-099e76db637d.mp4
 
 ## Nodes Interaction
 ### SLAM mode without the keyboard
