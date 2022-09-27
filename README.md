@@ -188,3 +188,4 @@ The assignement was very interesting and exciting to develop.
 We managed to deal with the **slam_toolbox** and **Nav2** thanks to all the documentation provided on Github and Internet.
 Especially we took inspiration from the Slam_toolbox packaged provided by *Steve Macenski* on Github and from the *ros-planning/navigation2* package.
 We also took advantage of the *cyberbotics/webots_ros2* in order to drive easly TIAgo in the appropriate 3D environments built purposely to test its SLAM skills.
+You can find the presentation of the project [here](https://github.com/LoreBene99/SofAR_Assignment1/blob/main/group13_sofar_presentation.pptx).
