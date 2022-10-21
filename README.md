@@ -1,5 +1,5 @@
 # First Assignment for the course "Sofwtare Architectures for Robotics" - UniGe
-### Developed by Benedetti Lorenzo, Manera G.P. Andrea, Sabzevari Danial
+### Developed by @LoreBene99, @andreamanera, @dssdanial
 Assignment given by the professors Simone Macciò and Fulvio Mastrogiovanni for the course "Sofwtare architectures for robotics" - Robotics Engineering, at the University of Genova.
 
 ## Delivery of the project 
